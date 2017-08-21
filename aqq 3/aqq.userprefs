@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{B2043B92-B762-4188-9AE2-271E8BD12C76}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="aqq/Persistence/ISQLiteDb.cs" Line="11" Column="1" />
+      <File FileName="aqq/MyPage.xaml" Line="66" Column="106" />
+      <File FileName="aqq/MyPage.xaml.cs" Line="121" Column="9" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="20" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.aqq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6CE40A95-FCC8-49E0-AF75-0CDFC724C57C" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.aqq.Droid PreferredExecutionTarget="Android.Nexus_6_API_25" />
+</Properties>

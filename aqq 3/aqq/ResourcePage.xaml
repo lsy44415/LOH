@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarouselPage Padding="5,5,5,5" Title="ICT"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="aqq.ResourcePage"
+      xmlns:local="clr-namespace:aqq.MarkupExtension"  >
+
+    <ContentPage ><ScrollView>
+        <StackLayout Spacing="10">
+                <Label></Label>
+        <StackLayout Spacing="5">
+    <Label Text="Course 1" TextColor="Blue" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict1.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel1Tapped"
+            NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Difficulty: ★ " XAlign="Center"></Label>
+            <Label Text="How To Make A Wordpress Website 2017 - Divi Theme Tutorial" FontSize="16" XAlign="Center"></Label>
+<Label Text="Learn how to create a wordpress website from scartch! Complete wordpress and divi theme tutorial"
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+
+</StackLayout>
+
+
+  <StackLayout Spacing="5">
+    <Label Text="Course 2" TextColor="Blue" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict2.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel2Tapped"
+            NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★ " XAlign="Center"></Label>
+            <Label Text="Create An HTML5 Video Player From Scratch" FontSize="16" XAlign="Center"></Label>
+<Label Text="Put your web development skills into practice with a nice project!"
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+    
+</StackLayout>    
+            </StackLayout></ScrollView>
+    </ContentPage>
+    
+
+   
+    <ContentPage ><ScrollView>
+        <StackLayout Spacing="10">
+         <StackLayout Spacing="5">
+    <Label Text="Course 3" TextColor="Blue" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict3.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel3Tapped"
+            NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★ " XAlign="Center"></Label>
+            <Label Text="Quickstart AngularJS" FontSize="16" XAlign="Center"></Label>
+<Label Text="A quick practical approach to let you know whether AngularJS is the tool of choice for your project as well as you!"
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+    
+</StackLayout> 
+
+
+
+
+          <StackLayout Spacing="5">
+    <Label Text="Course 4" TextColor="Blue" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict4.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel4Tapped"
+            NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★ " XAlign="Center"></Label>
+            <Label Text="Build Your First Website in 1 Week with HTML5 and CSS3" FontSize="16" XAlign="Center"></Label>
+
+                <Label Text="The Fastest Way to Learn HTML and CSS for the Real World" FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+    
+</StackLayout>
+        </StackLayout></ScrollView>
+    </ContentPage>
+
+
+    <ContentPage><ScrollView>
+    <StackLayout Spacing="10">
+      <StackLayout Spacing="5">
+    <Label Text="Course 5" TextColor="Blue" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict5.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel5Tapped"
+            NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+                 <Label Text="Difficulty: ★★ " XAlign="Center" ></Label>
+            <Label Text="Serverless Workflow Management with AWS Step Functions" FontSize="16" XAlign="Center"></Label>
+<Label Text="Using Amazon Web Services step functions to orchestrate micro services into state-machines to perform business process"
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+    
+</StackLayout>
+
+          <StackLayout Spacing="5">
+    <Label Text="Course 6" TextColor="Blue" XAlign="Center"></Label>        
+     <Image Source="{local:EmbeddedImage ResourceId = aqq.Image.ict6.png}">
+
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer
+            Tapped="OnLabel6Tapped"
+            NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+                   <Label Text="Difficulty: ★★ " XAlign="Center"></Label>
+            <Label Text="How To Create a Website in a Weekend! (Project-Centered Course)" FontSize="16" XAlign="Center"></Label>
+<Label Text="In this project-centered course, you’ll design, build, and publish a basic website that incorporates text, sound, images, hyperlinks, plug-ins, and social media interactivity. "
+         FontSize="13" TextColor="Gray" XAlign="Center"></Label>
+  
+    
+</StackLayout>  
+</StackLayout></ScrollView>
+    </ContentPage>
+    </CarouselPage>
